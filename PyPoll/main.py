@@ -40,7 +40,6 @@ with open(csvpath) as csvfile:
         percentVotes.append(percentage)
     
     # Identify candidate with the most votes
-    # winner = max(votes)
     winner_index = votes.index(max(votes))
     winningCandidate = candidates[winner_index]
 
